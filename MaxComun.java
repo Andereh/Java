@@ -6,6 +6,7 @@ public class MaxComun {
         for (int i = Math.min(_a, _b); i > 1; i--)
         {
             if (_a%i == 0 && _b%i == 0) return i;
+
         }
 
         System.out.println("Estos numeros no tienen un divisor comun\n");
