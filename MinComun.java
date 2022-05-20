@@ -8,7 +8,7 @@ public class MinComun {
             if (_a%i == 0 && _b%i == 0) return i;
         }
 
-        System.out.println("Estos numeros no tienen un divisor comun");
+        System.out.println("Estos numeros no tienen un divisor comun\n");
         return 0;
     }
 
@@ -25,7 +25,7 @@ public class MinComun {
 
         result = a / getMCM(a, b) * b;
 
-        System.out.print("Minumo comun multiplo: " + result);
+        System.out.print("Minumo comun multiplo: " + result + "\n");
 
     }
 }

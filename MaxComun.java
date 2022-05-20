@@ -8,7 +8,7 @@ public class MaxComun {
             if (_a%i == 0 && _b%i == 0) return i;
         }
 
-        System.out.println("Estos numeros no tienen un divisor comun");
+        System.out.println("Estos numeros no tienen un divisor comun\n");
         return 0;
     }
 
@@ -25,7 +25,7 @@ public class MaxComun {
 
         result = getMCM(a, b);
 
-        System.out.print("Maximo comun divisor: " + result);
+        System.out.print("Maximo comun divisor: " + result + "\n");
 
     }
 }
